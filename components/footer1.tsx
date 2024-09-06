@@ -51,7 +51,7 @@ const Footer1: NextPage<Footer1Type> = ({
 
   const onWaterTextClick = useCallback(() => {
     router.push(
-      "https://williams-plumbing-solutions.vercel.app/water-treatment"
+      "https://william0905-plumbing.vercel.app/watertreatment"
     );
   }, [router]);
 
@@ -60,7 +60,7 @@ const Footer1: NextPage<Footer1Type> = ({
   }, [router]);
 
   const onBlogTextClick = useCallback(() => {
-    router.push("https://blog-delta-three-74.vercel.app/");
+    router.push("https://williams0905-blog.vercel.app/");
   }, [router]);
 
   const onContactUsTextClick = useCallback(() => {
@@ -69,19 +69,19 @@ const Footer1: NextPage<Footer1Type> = ({
   }, [router]);
 
   const onSepticButtonClick = useCallback(() => {
-    router.push("https://williams-septic.vercel.app/");
+    router.push("https://william0905-septic.vercel.app/");
   }, [router]);
 
   const onSolutionsButtonClick = useCallback(() => {
-    router.push("https://williamssolutionpro.vercel.app/");
+    router.push("https://williamssolutions.pro/");
   }, [router]);
 
   const onExcavationButtonClick = useCallback(() => {
-    router.push("https://williamsexcavation.vercel.app/");
+    router.push("https://wiliams0905-excavation.vercel.app/");
   }, [router]);
 
   const onLoggingButtonClick = useCallback(() => {
-    router.push("https://williamslogging.vercel.app/");
+    router.push("https://wiliams0905-logging.vercel.app/");
   }, [router]);
 
   return (
